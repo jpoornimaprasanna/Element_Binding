@@ -1,0 +1,37 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="Assignment.AssignmentC.controller.EmpData"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:f = "sap.ui.layout.form">
+	<App>
+		<pages>
+			<Page title="Employee Details" showNavButton="true"
+			navButtonPress="onNavBack">
+				<content>
+					<f:SimpleForm
+						editable="false"
+						layout="ResponsiveGridLayout"
+						labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4"
+						columnsL="1" columnsM="1">
+						<f:content>
+							<Label text="Preferred Name" />
+							<Text text="{name}" />
+							
+							<Label text="Salary" />
+							<Text text="{salary}" />
+							
+							<Label text="Country" />
+							<Text text="{country}" />
+							
+							<Label text="Currency" />
+							<Text text="{currency}" />
+							
+							<Label text="Maratial State" />
+							<Text text="{maratialstate}" />
+							
+							
+						
+						</f:content>
+					</f:SimpleForm>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

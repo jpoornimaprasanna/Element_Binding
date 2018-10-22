@@ -1,0 +1,73 @@
+{
+	"details": [{
+		"name": "poornima",
+		"id": "1",
+		"salary": "50000",
+		"street": "H.no:124, 16th Main, 3rd cross, near Ganesha temple",
+		"zip": 234565,
+		"country": "India",
+		"editable":"false",
+		"currency":"INR",
+		"gender":"image/female.png",
+		"maratialstate":"single"
+		
+	}, {
+		"name": "Arun",
+		"id": "2",
+		"salary": "40000",
+		"street": "H.no:129, Marathalli",
+		"zip": 234565,
+		"country": "India",
+		"editable":"false",
+		"currency":"INR",
+		"gender":"image/download.png",
+		"maratialstate":"married"
+	}, {
+		"name": "dolly",
+		"id": "3",
+		"salary": "60000",
+		"street": "H.no:130, BTM",
+		"zip": 234565,
+		"country": "India",
+		"editable":"false",
+		"currency":"INR",
+		"gender":"image/female.png",
+		"maratialstate":"married"
+	}
+	, {
+		"name": "Saritha",
+		"id": "4",
+		"salary": "20000",
+		"street": "H.no:130, Marathalli",
+		"zip": 234565,
+		"country": "India",
+		"editable":"false",
+		"currency":"USD",
+		"gender":"image/female.png",
+		"maratialstate":"single"
+	}
+	, {
+		"name": "Namratha",
+		"id": "5",
+		"salary": "60000",
+		"street": "H.no:130, jai nagar",
+		"zip": 567856,
+		"country": "India",
+		"editable":"false",
+		"currency":"INR",
+		"gender":"image/female.png",
+		"maratialstate":"single"
+	}
+	, {
+		"name": "pooja",
+		"id": "6",
+		"salary": "575476",
+		"street": "H.no:130, Kurbaralli",
+		"zip": 234565,
+		"country": "India",
+		"editable":"false",
+		"currency":"INR",
+		"gender":"image/female.png",
+		"maratialstate":"married"
+	}]
+}

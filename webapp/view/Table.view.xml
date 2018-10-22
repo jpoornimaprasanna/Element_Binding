@@ -1,0 +1,42 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="Assignment.AssignmentC.controller.Table"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<App>
+		<pages>
+			<Page title="Employee Details" showNavButton="true"
+			navButtonPress="onNavBack">
+				<content>
+					<Table items="{empDetails>/details}" itemPress= "getEmpData" id="myTablesID" >
+						<columns>
+							<Column>
+								<Text text="UserId"/>
+							</Column>
+							<Column>
+								<Text text="Preferred FullName"/>
+							</Column>
+							<Column>
+								<Text text="Phone Number"/>
+							</Column>
+							<Column>
+								<Text text="Email Address"/>
+							</Column>
+							<Column>
+								<Text text="Gender"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem type="Active">
+								<cells >
+									<Text text="{empDetails>name}" ></Text>
+									<Text text="{empDetails>salary}"></Text>
+									<Text text="{empDetails>country}"></Text>
+									<Text text="{empDetails>maratialstate}"></Text>
+									<Image src="{empDetails>gender}" height="40px" width="40px"></Image>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
